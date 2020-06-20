@@ -1,4 +1,4 @@
-#Project-envato-team-fury-hotel-template
+# Project-envato-team-fury-hotel-template.
 
 The proper file structure has been created...
 The assets folder contains the various folders for css, images, js and src.
