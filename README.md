@@ -21,12 +21,12 @@ This process here should be able to guide you on how to contribute effectively t
 * Clone the repository.
 
    ```
-    git clone https://github.com/tomisinlalude/TalentPool.git
+    git clone (the repository link)
    ```
     
 * Make your forked repo the remote upstream (at origin)
 ```
-    git remote add origin https://github.com/tomisinlalude/TalentPool.git
+    git remote add origin (the repository link)
 ```
 * Create a branch FROM develop, ALWAYS CREATE YOUR BRANCH FROM DEVELOP,
 the branch name should at least be meaningful, i.e name the branch based on what you are working on  **make sure you have one story per branch (one(1) story ===  one(1) branch)** 
