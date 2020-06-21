@@ -1,0 +1,195 @@
+body {
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+.toolbar {
+    background-image: url('../images/Rectangle\ 4.png');
+}
+
+.reserve_ico{
+    padding-top: 50px;
+    padding-bottom: 0 !important;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.reserve-box {
+    background: #FFFFFF;
+    box-shadow: 0.3rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.reservation-img-text {
+    text-align: left;
+    /* padding-left: 6rem; */
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: .95rem;
+    text-transform: uppercase;
+    color: #505050;
+    padding-top: .9rem;
+}
+
+.font-icon {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.font-text {
+    margin-top: 1rem;
+}
+.icon-text {
+    padding-left: 0 !important;
+}
+.reservation-img {
+    /* width: 24rem; */
+    /* height: 15rem; */
+    width: 100%;
+}
+
+.id-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: .94rem;
+    line-height: 2rem;
+    color: #505050;
+}
+
+.check-info {
+    margin-top: 2rem;
+}
+
+.check-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: .7rem;
+    line-height: 19px;
+    color: #505050;
+}
+
+.info-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.bold {
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+.reservation-breif {
+    text-align: left;
+}
+
+.btn-primary {
+    position: absolute;
+    background: #DEBC64;
+    margin-top: 1rem;
+    right: 25%;
+}
+
+.btn {
+    background-color: #DEBC64;
+    border-color: #DEBC64;
+    color: #0A1320;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.btn:hover {
+    border-color: #DEBC64;
+    color: #0A1320;
+    background-color: #DEBC64;
+}
+
+.btn-book {
+    margin-top: 0 !important;
+}
+
+footer {
+    margin-top: 5.5rem;
+}
+
+.img_bg {
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .img1 {
+        display: none;
+    }
+    .img2 {
+        display: none;
+    }
+    .img3 {
+        display: none;
+    }
+    .vector {
+        display: none;
+    }
+    .vector1 {
+        display: block;
+    }
+    .vector2 {
+        display: block;
+    }
+    .img4 {
+        text-align: center;
+    }
+}
+
+@media screen and  (max-width: 970px) {
+    .reserve-box {
+        background: #FFFFFF;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 5%;
+    }
+    .btn-primary {
+        position: absolute;
+        margin-top: .8rem;
+        right: 10%;
+    }
+}
+
+/* Media Queries */
+/* @media (max-width: 793px) { 
+    
+.reserve-box {
+    background: #FFFFFF;
+    box-shadow: 0.3rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5%;
+}
+ }
+
+ @media (max-width: 1018px) and (min-width: 794px) {
+    .reserve-box {
+        margin: 0 auto;
+        width: 50%;
+        margin-top: 5%;
+    }
+    .reservation-img {
+        width: 15rem;
+        height: 15rem;
+        width: 50%;
+    }
+    .reservation-img-text {
+        padding-left: 0;
+    }
+ } */
