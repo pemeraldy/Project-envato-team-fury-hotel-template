@@ -115,7 +115,7 @@ section{
   overflow: hidden;
   height: 443px;
   background: linear-gradient(rgba(19, 35, 54, 0.95), rgba(19, 36, 54, 0.65)),
-    url(../assets/images/parking.jpeg) center no-repeat;
+    url(../images/parking.jpeg) center no-repeat;
   background-size: cover;
 }
 /*header .nav-wrap {
@@ -209,7 +209,7 @@ nav{
     color: #FFFFFF !important;
 }
 .active{
-   background-color: #DEBC64;
+   border-bottom: 4px solid #DEBC64;
    color: #182B47;
 }
 .book_online_btn{
